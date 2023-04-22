@@ -1,0 +1,35 @@
+package Ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejer1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner tc=new Scanner(System.in);
+		
+		//System.out.println(Determinar el area de un rectangulo al multiplicar la base por su altura);
+		double b = 0, h = 0;
+		
+		double altura=h, base= b ;
+		
+		System.out.println("Ingresa la base del rectangulo");
+		double b1= tc.nextDouble();
+		
+		System.out.println("Ingresa la altura del rectangulo");
+		double  h1= tc.nextDouble();
+		
+		
+		double area= base * altura;
+		
+		double Area= b1*h1;
+		
+		System.out.println("El area de un rectangulo es:"+ Area + "m²");
+		
+		
+		
+		
+	}
+
+}
